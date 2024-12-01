@@ -99,9 +99,7 @@ def get_medicine_info(medicine_name):
     url = "http://apis.data.go.kr/1471000/DrbEasyDrugInfoService/getDrbEasyDrugList"
 
     # 실제 서비스키
-    service_key = "mcqNw9xhEDxZjS1wsVLgVXFE9l65fbHZlGzmcOnbEkubqtJfDcc1XiWGBL0NyCuoBQAm7uzxoVnFGYik/wBEVw=="
-    # mcqNw9xhEDxZjS1wsVLgVXFE9l65fbHZlGzmcOnbEkubqtJfDcc1XiWGBL0NyCuoBQAm7uzxoVnFGYik%2FwBEVw%3D%3D
-    # mcqNw9xhEDxZjS1wsVLgVXFE9l65fbHZlGzmcOnbEkubqtJfDcc1XiWGBL0NyCuoBQAm7uzxoVnFGYik/wBEVw==
+    service_key = ""
 
     params = {
         "ServiceKey": service_key,
